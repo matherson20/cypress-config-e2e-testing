@@ -1,0 +1,22 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "Testes E2E do projeto Linda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint cypress/**/*.js",
+    "lint:fix": "eslint cypress/**/*.js --fix"
+  },
+  "keywords": [],
+  "author": "Matherson Antonio",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-mailosaur": "^2.3.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {}
+}
